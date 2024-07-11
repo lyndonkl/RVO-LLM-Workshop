@@ -12,34 +12,30 @@ Welcome to the Sales Agent Workshop! This guide will help you set up your enviro
 
 1. **Create a Conda Environment**:
     ```bash
-    conda create -n sales_agent_env python=3.8
+    conda create -n sales_agent_env python=3.11
     conda activate sales_agent_env
-    ```
-
-2. **Install Dependencies**:
-    Run the following commands to install the necessary libraries within your conda environment:
-    ```bash
-    conda install -c conda-forge langchain
-    conda install -c conda-forge langchain-community
-    conda install -c conda-forge langchain_openai
-    conda install -c conda-forge langchain-chroma
-    conda install -c conda-forge litellm
     ```
 
 ## Workshop Preparation
 
-1. **Clone the Workshop Repository**:
+1. **Install Dependencies**:
+    Run the following commands to install the necessary libraries within your conda environment:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. **Clone the Workshop Repository**:
     ```bash
     git clone <repository-url>
     cd <repository-url>
     ```
 
-2. **Open Jupyter Notebook**:
+3. **Open Jupyter Notebook**:
     ```bash
     jupyter notebook
     ```
 
-3. **Navigate to the Notebook**:
+4. **Navigate to the Notebook**:
     Open the `sales_agent_with_context.ipynb` file in Jupyter Notebook.
 
 ## Notebook Overview
